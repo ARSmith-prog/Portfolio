@@ -1,0 +1,408 @@
+/* Alannah Smith Portfolio 
+started on: 2/18/21  */
+
+#navlist{
+  background-color: rgb(2, 29, 68);
+  overflow: hidden;               
+  border-bottom: 4px solid rgb(67, 97, 207);
+  -webkit-border-radius: 20px 20px 0 0;
+  border-radius: 30px 30px 30px 30px;
+  transition: all 0.7s ease;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  .nav {
+    list-style: none;    /*gets rid of bullet points*/ 
+    margin: 0;
+    align-items: center;
+    text-align: center;
+
+  }
+  .nav > li {                                                             
+      display:Inline-block;
+      text-align: center;
+      padding: 10px 9px 10px 9px;
+      align-items: center;                               /*nav bar text*/
+  }
+.nav > li a{
+  color: rgb(255, 249, 249);
+  font-family: 'calibri';
+  text-decoration: none;               /*removes the line under linked text*/
+  font-size: 20pt;
+  padding: 5px 0px 5px 0px; 
+  margin-right: auto;
+  margin-left: auto;
+}
+ .nav > li > a:hover{                       /*nav bar hover */
+  color: rgb(254, 62, 85);
+}
+.nav > li .active {
+  color:rgb(237, 202, 84);             /*makes active page link a different color*/
+}
+
+.logo img{                          /*controls logo img*/
+    width: 75px;
+    height: 60px;
+    margin-right: 30px;
+    margin-left: -400px;
+
+  }    
+/* controls github img */
+.git img {
+    margin-right: -600px;
+    width: 50px;
+    height: 40px;
+     } 
+/* controls linkdn img  */
+.link img {
+  margin-right: -700px;
+  width: 40px;
+  height: 35px;
+   } 
+
+   /* controls body for the home page and the project page  */
+body.home {
+  margin: 0;
+	padding: 0;
+    text-align:center;
+    background-image:  linear-gradient(60deg,
+      rgba(6, 87, 238, 0.45), 
+      rgba(252, 252, 252, 0.45)
+    ), url("junk.jfif");
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    font-family: 'calibri';
+}
+               /* controls body for about page  */
+body.about {
+  text-align:center;
+  margin: 0px;
+  padding: 0px;
+  background-image:  linear-gradient(60deg,
+  rgba(6, 87, 238, 0.45), 
+  rgba(252, 252, 252, 0.45)
+), url("junk.jfif");
+background-position: center;
+background-size: cover;
+font-family: 'calibri';
+}
+ 
+/* controls body for contact page  */
+body.Contact{
+  text-align:center;
+  margin: 0px;
+  padding: 0px;
+  background-image:  linear-gradient(60deg,
+  rgba(6, 87, 238, 0.45), 
+  rgba(252, 252, 252, 0.45)
+), url("junk.jfif");
+background-position: center;
+background-size: cover;
+font-family: 'calibri';
+}
+
+/* controls heading on contact page  */
+heading on
+h1 {
+font-size: 25px;
+}
+/* controls the headings on home page, about, projects */
+h3, h2, h5 {
+    font-size: 35px;  
+}
+/* controls name on home page */
+h7 {
+  color:black;
+  font-size: 40px;
+}
+/* controls footer heading  */
+.up {
+    margin-top: 90px;
+}
+/* controls heading on homepage  */
+h4{
+    font-size: 30px;
+    color:rgb(67, 97, 207);
+}
+
+p2 {  font-size: 23px; 
+  margin-left: 500px;
+}
+p1{  
+  flex: 50%;
+  font-size: 20px;
+}
+p{
+  font-size: 23px; 
+  margin-left: 300px;
+  margin-right: 300px;
+}
+p3{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 23px; 
+}
+
+/* controls begining section on homepage */
+.nextCont {
+  margin-top: 250px;
+  margin-bottom: -195px;
+}
+/* controls about section on home page  */
+.aboutCont {
+background-color: rgb(2, 29, 68);
+margin-top: 500px;
+padding: auto;
+height: 600px;
+text-align: center;
+color: white;
+}
+/* controls about home page heading */
+.aboutCont h3 {
+  padding-top: 175px;
+}
+/* controls home page info section */
+.infoCont {
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
+  text-align: center;
+  padding: 1px;
+  box-shadow: 0 4px 8px 0 rgb(67, 97, 207);
+  border-radius: 20px;
+  margin-top: -175px;
+  font-family: 'calibri';
+}
+/* controls home page paragraph info section */
+.infoCont p {
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: center;
+}
+/* dev tools section home page  */
+.tools{
+  list-style-type: none;
+  margin-right: 45px;
+  font-size: 23px; 
+  text-align: center;
+
+}
+/* controls see my wokr button on home page  */
+.button {
+  border-radius: 4px;
+  background-color: rgb(237, 202, 84);
+  border: none;
+  color: #111111;
+  text-align: center;
+  font-family: 'calibri';
+  font-size: 20px;
+  padding: 15px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+/* code for more control of the button above */
+/* #buttonC{
+  margin-top: 700px;
+  margin-bottom: -00px;
+} */
+
+/* controls the info inside the button above  */
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+/* controls how the button looks after the point is over it  this part controls the arrow*/
+.button span:after {
+  content: '\2193';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+/* controls the movment of the text when you hover over it  */
+.button:hover span {
+  padding-right: 25px;
+}
+/* controls the button when the pointer is over it  */
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* controls the about container on the about page  */
+#aboutContainer {
+  background-color: rgb(2, 29, 68);
+  height: 400px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+/* controls the header on the about page  */
+#aboutContainer h3 {
+  padding-top: 100px;
+}
+/* controls paragrahs on the about page */
+#aboutContainer p {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+/* about page video container */
+#VideoContainer {
+  display:inline-block;
+  color: black;
+  /* text-align: center; */
+  font-size: 23px;
+  font-family: 'calibri';
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+/* controls text under video */
+#videoContainer p {
+  font-weight: bolder;
+}
+/* controls video */
+#vid {
+margin-top: 100px;
+}
+/* makes the icons shake on home page  */
+.row img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+/* makes the icons shake on home page  */
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+/* controls the icons on home page  */
+  .row {
+    display:flex;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:relative;
+   /* margin-right: 400px;
+    margin-left: 400px;  */         
+  }
+/* controls each icon img */
+  .row img {
+    /* flex: 0 32%; */
+    height: 100px;
+    padding:5px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+/* controls the advice api  */
+.advicebox{
+font-family: inherit;
+color:rgb(21, 21, 31);
+}
+/* controls the api button */
+.btn {
+  cursor: pointer;
+  outline: 0;
+  font-family: inherit;
+}
+/* controls api button */
+#advice-btn {
+  width: 255px;
+  height: 155px;
+  margin-top: 75px;
+  font-size: 2rem;
+  font-style:oblique;
+  font-weight: bold;
+  background: rgb(237, 202, 84);
+  color:white;
+  border: none;
+  border-radius: 3rem;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+/* changes api butn color */
+#advice-btn:hover{
+  background:rgb(67, 97, 207);
+}
+/* controls projects on home page and project */
+  #project-container {
+    display: flex;
+    flex-direction:row;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin: 120px;
+  }
+/* affect over the project imgs  */
+ .battle:hover {
+    opacity: 0.4;
+  }
+/* affects over the project imgs */
+ .jap:hover {
+    opacity: 0.4;
+  }
+/* affects over the project imgs  */
+ .wheels:hover {
+    opacity: 0.4;
+  }
+/* controls batt img */
+  .battle {
+    border:10px solid rgb(250, 247, 247);
+    border-radius: 4px;
+  }
+/* controls jap img */
+  .jap, .wheels {
+    border:10px solid rgb(7, 7, 7);
+    border-radius: 4px;
+  }
+/* controls container for form */
+  #wrap {
+    background: rgb(253, 253, 253);
+    margin-bottom: 150px;
+    padding:15px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    color:black;
+    box-shadow: 0 8px 10px 0 rgb(67, 97, 207);
+  }
+/* controls heading for form */
+  #wrap h4 {
+    font-size: 30px;
+    color:black;
+  }
+/* controls send button on form */
+  #wrap .send {
+    border: 5px solid rgb(255, 58, 70);
+    border-radius: 4px;
+    display: flex;
+    margin-left: 285px;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 5px;
+    font-weight: bold;
+  }
+/* controls footer */
+  footer{
+    padding-top: 200px;
+    display: flex;
+    background-color: rgb(2, 29, 68);
+    color: white;
+}
